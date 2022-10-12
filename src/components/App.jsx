@@ -1,16 +1,12 @@
+// import componets
+import Feedback from './Feedback/Feedback';
+// import styled
+import { Div } from 'components/App.styled';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Div>
+      <Feedback />
+    </Div>
   );
 };
